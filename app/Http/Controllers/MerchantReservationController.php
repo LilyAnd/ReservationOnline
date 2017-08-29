@@ -90,7 +90,7 @@ class MerchantReservationController extends Controller
         ->leftJoin('users', 'users.id', '=', 'reservations.id')
         ->where('id_admin', $id_user)
         ->select('items.item_name','reservations.id_reservation','users.name','reservations_items.reservation_status','reservations_items.alasan','reservations_items.quantity','reservations.reservation_date')
-        ->where('reservation_status', '!=', NULL)
+        ->where('reservation_status', '!=', null)
         ->distinct('id_reservation','name')
         ->paginate(6);
 

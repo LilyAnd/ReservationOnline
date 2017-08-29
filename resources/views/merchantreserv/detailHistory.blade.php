@@ -106,11 +106,11 @@ h3{
                     <div id="collapseFour" class="panel-collapse collapse">
                         <div class="panel-body">
                             <table class="table">
-                                <!-- <tr>
+                                <tr>
                                     <td>
                                         <span class="glyphicon glyphicon-usd"></span><a href="history-reservation">Lihat History</a>
                                     </td>
-                                </tr> -->
+                                </tr>
                             </table>
                         </div>
                     </div>

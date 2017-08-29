@@ -2,10 +2,6 @@
 
 @section('sidemenubar')
 
-<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
- -->
  <!DOCTYPE html>
  <html>
  <head>
@@ -29,8 +25,8 @@ th {
 }
 
  </style>
- <body>
- <div class="container">
+
+<div class="container">
     <div class="row">
         <div class="col-sm-3 col-md-3">
             <div class="panel-group" id="accordion">
@@ -52,15 +48,15 @@ th {
                             </table>
                         </div>
                     </div>
-            
-                   <div class="panel panel-default">
+                </div>
+
+                <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-th">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-user">
                             </span>Item</a>
                         </h4>
                     </div>
-
                     <div id="collapseTwo" class="panel-collapse collapse">
                         <div class="panel-body">
                             <table class="table">
@@ -73,11 +69,11 @@ th {
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-user">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-file">
                             </span>Reservation</a>
                         </h4>
                     </div>
@@ -86,7 +82,27 @@ th {
                             <table class="table">
                                 <tr>
                                     <td>
-                                        <a href="mshow">Lihat Reservasi</a>
+                                        <span class="glyphicon glyphicon-usd"></span><a href="reservmerchant">Lihat Reservasi</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"><span class="glyphicon glyphicon-file">
+                            </span>History Reservation</a>
+                        </h4>
+                    </div>
+                    <div id="collapseFour" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <table class="table">
+                                <tr>
+                                    <td>
+                                        <span class="glyphicon glyphicon-usd"></span><a href="history-reservation">Lihat History</a>
                                     </td>
                                 </tr>
                             </table>
@@ -95,7 +111,6 @@ th {
                 </div>
             </div>
         </div>
-    </div>
 
         <div class="col-sm-3 col-md-9">
             <div class="well">
